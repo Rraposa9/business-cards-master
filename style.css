@@ -56,7 +56,7 @@ body {
   grid-gap: 20px;
   position: relative;
   top: 60px;
-  left: 30;
+  left: 10;
 }
 
 .text-container {
@@ -69,8 +69,15 @@ body {
 
 }
 
-.h5 {
+h1 {
+  font-size: xx-large;
+  font-weight:700;
+}
+
+h5 {
   font-weight:400;
+  color:slategrey;
+  font-size: larger;
 }
 
 /* .circle{
