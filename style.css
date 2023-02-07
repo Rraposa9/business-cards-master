@@ -8,21 +8,22 @@
 
 
 body {
-    background-color: gray;
-    background-image: url('assets/cabin.svg');
+    background-image: url('assets/site-background.png');
+    background-size: contain;
 }
 /* the main container */
 
-.front-side,
+
 .back-side {
-  width: 254px;
-  height: 441px;
-  position: relative;
+  width: 441px;
+  height: 254px;
+  position: static;
   /* adjust this to space out the cards */
   margin: 20px auto;
   overflow: hidden;
   box-shadow: 2px 5px 15px 0px #17161694;
-  background-color:antiquewhite;
+  background-image: url('assets/back-card.png');
+  background-size: contain;
 }
 
 /* .front-side{
@@ -45,14 +46,15 @@ body {
 
 .icon-container{
 
-  width:80%;
+  width:40%;
   margin: 0 auto;
   display:grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr;
   grid-template-areas: 
   "a b c";
-  grid-gap: 10px;
+  grid-gap: 20px;
+  top: 50px;
 }
 
 /* .circle{
@@ -88,6 +90,6 @@ svg{
 .svg-interaction:hover{
   fill:rgb(90, 176, 230);
   opacity: 0.5;
-  animation:pulse; 
+  animation: icon-fill;
   animation-duration: 2s;
 }
