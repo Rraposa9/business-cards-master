@@ -17,11 +17,11 @@ body {
 .back-side {
   width: 441px;
   height: 254px;
-  position: static;
+  position: relative;
   /* adjust this to space out the cards */
-  margin: 20px auto;
+  margin: 70px auto;
   overflow: hidden;
-  box-shadow: 2px 5px 15px 0px #17161694;
+  /* box-shadow: 2px 5px 15px 0px #17161694; */
   background-image: url('assets/back-card.png');
   background-size: contain;
 }
@@ -54,7 +54,23 @@ body {
   grid-template-areas: 
   "a b c";
   grid-gap: 20px;
+  position: relative;
+  top: 60px;
+  left: 30;
+}
+
+.text-container {
+  font-family: 'Catamaran', sans-serif;
+  color: midnightblue;
+  position: relative;
+  left: 130px;
   top: 50px;
+  
+
+}
+
+.h5 {
+  font-weight:400;
 }
 
 /* .circle{
