@@ -61,10 +61,10 @@ body {
 
 .text-container {
   font-family: 'Catamaran', sans-serif;
-  color: midnightblue;
+  color: rgb(53, 99, 146);;
   position: relative;
-  left: 130px;
-  top: 50px;
+  top: 40px;
+  text-align: center;
   
 
 }
@@ -76,8 +76,8 @@ h1 {
 
 h5 {
   font-weight:400;
-  color:slategrey;
-  font-size: larger;
+  color:rgb(88, 89, 91);
+  font-size: medium;
 }
 
 /* .circle{
@@ -101,7 +101,9 @@ h5{
 .st1{display:inline;}
 
 svg{
-  fill:rgb(135, 144, 186);
+  fill:rgb(88, 89, 91);
+  align-items: center;
+
 }
 
 #icon-fill{
@@ -111,7 +113,7 @@ svg{
 
 
 .svg-interaction:hover{
-  fill:rgb(90, 176, 230);
+  fill:rgb(30, 135, 234);
   opacity: 0.5;
   animation: icon-fill;
   animation-duration: 2s;
