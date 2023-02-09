@@ -50,7 +50,7 @@ body {
 
 .icon-container{
 
-  width:30%;
+  width:35%;
   margin: 0 auto;
   display:grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -60,8 +60,8 @@ body {
   grid-gap: 0px;
   position: relative;
 
-  top: 65px;
-  left: 20px;
+  top: 60px;
+  left: 25px;
 }
 
 .text-container {
@@ -112,7 +112,7 @@ h5{
 
 svg{
   fill:rgb(88, 89, 91);
-  height: 30;
+  height: 38;
   
 }
 
