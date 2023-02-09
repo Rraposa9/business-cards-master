@@ -8,21 +8,23 @@
 
 
 body {
-    background-image: url('assets/site-background.png');
-    background-size: contain;
+    background-image: url('assets/background2.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    
 }
 /* the main container */
 
 
 .back-side {
   width: 441px;
-  height: 254px;
+  height: 245px;
   position: relative;
   /* adjust this to space out the cards */
   margin: 70px auto;
   overflow: hidden;
   /* box-shadow: 2px 5px 15px 0px #17161694; */
-  background-image: url('assets/back-card.png');
+  background-image: url('assets/cardback2.png');
   background-size: contain;
 }
 
@@ -72,12 +74,14 @@ body {
 h1 {
   font-size: xx-large;
   font-weight:700;
+  letter-spacing: 0.03cm;
 }
 
 h5 {
   font-weight:400;
   color:rgb(88, 89, 91);
   font-size: medium;
+  letter-spacing: 0.2ch;
 }
 
 /* .circle{
@@ -100,11 +104,14 @@ h5{
 /* .st0{display:none;} */
 .st1{display:inline;}
 
+
 svg{
   fill:rgb(88, 89, 91);
-  align-items: center;
-
+  height: 30;
+  
 }
+
+
 
 #icon-fill{
   fill:none;
