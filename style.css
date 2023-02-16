@@ -10,7 +10,7 @@
 @media screen and (max-width: 1200px) {
   body{
    transform-origin: top;
-   transform: scale(.9);
+   transform: scale(.7);
    margin:0 auto;
   }
  
@@ -59,18 +59,18 @@ body {
 
 .icon-container{
 
-  width:35%;
+  width: 0px;
   margin: 0 auto;
-  display:grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr;
   grid-template-areas: 
   "a b";
-  grid-gap: 6px;
+  grid-gap: 3px;
   position: relative;
-
-  top: 65px;
-  left: 25px;
+  
+  top: 60px;
+  left: 15px;
 }
 
 .text-container {
@@ -121,7 +121,7 @@ h5{
 
 svg{
   fill:rgb(88, 89, 91);
-  height: 35;
+  height: 40;
   
 }
 
@@ -139,9 +139,6 @@ svg{
   animation-duration: 2s;
 }
 
-.instagram {
-  width: 50px;
-}
 
 .h3 {
   font-weight:400;
@@ -154,13 +151,10 @@ svg{
   width: 180px;
   height: 200px;
   position: relative;
-  left: 770px;
+  left: 775px;
   bottom: 450px;
-  /* adjust this to space out the cards */
   margin: 70px auto;
   overflow: hidden;
-  /* box-shadow: 2px 5px 15px 0px #17161694; */
-  background-image: url('assets/drawing2.png');
   background-size: contain;
 }
 
@@ -168,12 +162,9 @@ svg{
   width: 250px;
   height: 180px;
   position: relative;
-  left: 820px;
+  left: 810px;
   top: 0px;
-  /* adjust this to space out the cards */
   margin: 70px auto;
   overflow: hidden;
-  /* box-shadow: 2px 5px 15px 0px #17161694; */
-  background-image: url('assets/painting2.png');
   background-size: contain;
 }
