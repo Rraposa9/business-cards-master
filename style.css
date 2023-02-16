@@ -38,6 +38,7 @@ body {
   /* box-shadow: 2px 5px 15px 0px #17161694; */
   background-image: url('assets/final-backcard.png');
   background-size: contain;
+  border-radius: 10px;
 }
 
 /* .front-side{
@@ -88,6 +89,7 @@ left: 500px;
 
 }
 
+
 h1 {
   font-size: xx-large;
   font-weight:700;
@@ -136,11 +138,11 @@ svg{
   fill:rgb(30, 135, 234);
 }
 
-
+svg{fill:#58595b;}
 
 .svg-interaction:hover{
   fill:rgb(30, 135, 234);
-  animation: icon-fill;
+  /* animation: icon-fill; */
 
 }
 
