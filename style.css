@@ -13,9 +13,11 @@
    transform: scale(.7);
    margin:0 auto;
    background-image: url('assets/background2.png');
+   text-align: center;
   }
- 
-   }
+}
+
+
 
 body {
     background-image: url('assets/backportrait.png');
@@ -75,9 +77,6 @@ body {
   left: 15px;
 }
 
-.email-icon {
-left: 500px;
-}
 
 .text-container {
   font-family: 'Catamaran', sans-serif;
@@ -128,17 +127,22 @@ h5{
 
 svg{
   fill:rgb(88, 89, 91);
-  height: 43;
+  height: 43px;
   
 }
 
+.email-icon {
+  height: 43px;
+}
 
 
 #icon-fill{
   fill:rgb(30, 135, 234);
 }
 
-svg{fill:#58595b;}
+svg {
+  fill:#58595b;
+}
 
 .svg-interaction:hover{
   fill:rgb(30, 135, 234);
