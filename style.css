@@ -140,3 +140,31 @@ svg{
   font-size: medium;
   letter-spacing: 0.2ch;
 }
+
+.drawing2 {
+  width: 180px;
+  height: 200px;
+  position: relative;
+  left: 770px;
+  bottom: 450px;
+  /* adjust this to space out the cards */
+  margin: 70px auto;
+  overflow: hidden;
+  /* box-shadow: 2px 5px 15px 0px #17161694; */
+  background-image: url('assets/drawing2.png');
+  background-size: contain;
+}
+
+.painting2 {
+  width: 250px;
+  height: 180px;
+  position: relative;
+  left: 820px;
+  top: 0px;
+  /* adjust this to space out the cards */
+  margin: 70px auto;
+  overflow: hidden;
+  /* box-shadow: 2px 5px 15px 0px #17161694; */
+  background-image: url('assets/painting2.png');
+  background-size: contain;
+}
