@@ -9,11 +9,10 @@
 /* this code will be used when the screen size is 1200 pixels or less */
 @media screen and (max-width: 1200px) {
   body{
-   transform-origin: top;
+   /* transform-origin: top; */
    transform: scale(.7);
    margin:0 auto;
    background-image: url('assets/background2.png');
-   text-align: center;
   }
 }
 
@@ -63,9 +62,24 @@ body {
 
 .icon-container{
 
-  width: 0px;
+  /* width: 160px;
   margin: 0 auto;
   display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  grid-template-areas: 
+  "a b";
+  grid-gap: -px; */
+  
+  position: relative;
+  margin-left: ;
+}
+
+.icon-container2{
+
+  width: 0px;
+  margin:  auto;
+  /* display: grid; */
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr;
   grid-template-areas: 
@@ -74,10 +88,9 @@ body {
   position: relative;
   
   
-  top: 65px;
+  top: 60px;
   left: 15px;
 }
-
 
 .text-container {
   font-family: 'Catamaran', sans-serif;
@@ -168,6 +181,8 @@ svg {
   margin: 70px auto;
   overflow: hidden;
   background-size: contain;
+  
+  
 }
 
 .painting2 {
@@ -175,7 +190,7 @@ svg {
   height: 180px;
   position: relative;
   left: 810px;
-  top: 0px;
+  top: 20px;
   margin: 70px auto;
   overflow: hidden;
   background-size: contain;
