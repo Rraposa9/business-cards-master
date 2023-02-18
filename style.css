@@ -73,6 +73,7 @@ body {
   grid-gap: -px; */
   
   position: relative;
+  
 }
 
 .icon-container2{
@@ -87,9 +88,6 @@ body {
   grid-gap: 3px;
   position: relative;
   
-  
-  top: 60px;
-  left: 15px;
 }
 
 .text-container {
@@ -147,6 +145,7 @@ svg{
 
 .email-icon {
   height: 43px;
+ 
 }
 
 
@@ -156,6 +155,7 @@ svg{
 
 svg {
   fill:#58595b;
+  
 }
 
 .svg-interaction:hover{
