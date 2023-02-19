@@ -35,7 +35,7 @@ position: relative;
 /* left: 300; */
 /* top: 155; */
 /* adjust this to space out the cards */
-margin-top: 190px;
+margin-top: 210px;
 margin-left: 60%;
 overflow: hidden;
 /* box-shadow: 2px 5px 15px 0px #17161694; */
@@ -145,8 +145,8 @@ background-size: contain;
 .painting2 {
 position: absolute;
 width: 120px;
-left: 308px;
-top: 37px;
+left: 310px;
+top: 40px;
 margin: 70px auto;
 overflow: hidden;
 background-size: contain;
