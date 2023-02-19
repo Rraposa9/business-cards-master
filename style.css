@@ -1,134 +1,93 @@
 *{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    /* border: 1px solid blue; */
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  /* border: 1px solid blue; */
 
-    }
+  }
 
 /* this code will be used when the screen size is 1200 pixels or less */
 @media screen and (max-width: 1200px) {
-  body{
-   /* transform-origin: top; */
-   transform: scale(1.0);
-   margin:0 auto;
-   background-image: url('assets/background2.png');
-   transform-origin: 50%;
-  }
+body{
+ /* transform-origin: top; */
+ transform: scale(1.0);
+ margin:0 auto;
+ background-image: url('assets/background2.png');
+ transform-origin: center;
+}
 }
 
 
 
 body {
-    background-image: url('assets/backportrait.png');
-    background-repeat: no-repeat;
-    background-size: cover;
-    
+  background-image: url('assets/backportrait.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  
 }
 /* the main container */
 
 
 .back-side {
-  width: 445px;
-  height: 250px;
-  position: relative;
-  left: 300;
-  top: 155;
-  /* adjust this to space out the cards */
-  margin: 70px auto;
-  overflow: hidden;
-  /* box-shadow: 2px 5px 15px 0px #17161694; */
-  background-image: url('assets/final-backcard.png');
-  background-size: contain;
-  border-radius: 10px;
+width: 445px;
+height: 250px;
+position: relative;
+/* left: 300; */
+/* top: 155; */
+/* adjust this to space out the cards */
+margin-top: 190px;
+margin-left: 60%;
+overflow: hidden;
+/* box-shadow: 2px 5px 15px 0px #17161694; */
+background-image: url('assets/final-backcard.png');
+background-size: contain;
+border-radius: 10px;
 }
 
 /* .front-side{
 } */
 
-.name{
-  display: grid;
-  position: relative;
-  margin-left:30px;
-  padding: 10px
 
-}
 
-.secondary{
-  display: grid;
-  position: relative;
-  margin-left: 30px;
-
-}
 
 .icon-container{
+width: 25%;
+margin: 0 auto;
+top:70px;
 
-  /* width: 160px;
-  margin: 0 auto;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr;
-  grid-template-areas: 
-  "a b";
-  grid-gap: -px; */
-  
-  position: relative;
-  
-}
+display: grid;
+grid-template-columns: 1fr;
+grid-template-rows: 1fr 1fr;
+grid-template-areas: 
+"a b";
+grid-gap: 10px;
+position: relative;
 
-.icon-container2{
-
-  width: 0px;
-  margin:  auto;
-  /* display: grid; */
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr;
-  grid-template-areas: 
-  "a b";
-  grid-gap: 3px;
-  position: relative;
-  
 }
 
 .text-container {
-  font-family: 'Catamaran', sans-serif;
-  color: rgb(53, 99, 146);;
-  position: relative;
-  top: 45px;
-  text-align: center;
-  
+font-family: 'Catamaran', sans-serif;
+color: rgb(53, 99, 146);;
+position: relative;
+top: 45px;
+text-align: center;
 
 }
 
 
 h1 {
-  font-size: xx-large;
-  font-weight:700;
-  letter-spacing: 0.03cm;
+font-size: xx-large;
+font-weight:700;
+letter-spacing: 0.03cm;
 }
 
 h5 {
-  font-weight:400;
-  color:rgb(88, 89, 91);
-  font-size: medium;
-  letter-spacing: 0.2ch;
-  
+font-weight:400;
+color:rgb(88, 89, 91);
+font-size: medium;
+letter-spacing: 0.2ch;
+
 }
-
-/* .circle{
-  background-image: url("/assets/circle.svg");
-  grid-area: a;
-} */
-
-
-/* h3{
-  margin-bottom: 0px;
-}
-
-h5{
-  margin-top: 0px;
-  padding-top: 0px;
-} */
 
 
 /* svg styling */
@@ -138,60 +97,57 @@ h5{
 
 
 svg{
-  fill:rgb(88, 89, 91);
-  height: 43px;
-  
+fill:rgb(88, 89, 91);
+height: 43px;
+
 }
 
 .email-icon {
-  height: 43px;
- 
+height: 43px;
+
 }
 
 
 #icon-fill{
-  fill:rgb(30, 135, 234);
+fill:rgb(30, 135, 234);
 }
 
 svg {
-  fill:#58595b;
-  
+fill:#58595b;
+
 }
 
 .svg-interaction:hover{
-  fill:rgb(30, 135, 234);
-  /* animation: icon-fill; */
+fill:rgb(30, 135, 234);
+/* animation: icon-fill; */
 
 }
 
 
-.h3 {
-  font-weight:400;
-  color:rgb(88, 89, 91);
-  font-size: medium;
-  letter-spacing: 0.2ch;
+h3 {
+font-weight:400;
+color:rgb(88, 89, 91);
+font-size: medium;
+letter-spacing: 0.2ch;
 }
 
 .drawing2 {
-  width: 180px;
-  height: 200px;
-  position: relative;
-  left: 775px;
-  bottom: 450px;
-  margin: 70px auto;
-  overflow: hidden;
-  background-size: contain;
-  
-  
+position: absolute;
+width: 110px;
+top: 90px;
+left: 6px;
+bottom: 0px;
+margin: 0px auto;
+overflow: hidden;
+background-size: contain;
 }
 
 .painting2 {
-  width: 250px;
-  height: 180px;
-  position: relative;
-  left: 810px;
-  top: 10px;
-  margin: 70px auto;
-  overflow: hidden;
-  background-size: contain;
+position: absolute;
+width: 120px;
+left: 308px;
+top: 37px;
+margin: 70px auto;
+overflow: hidden;
+background-size: contain;
 }
