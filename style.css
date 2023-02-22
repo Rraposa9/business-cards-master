@@ -15,6 +15,9 @@ body{
  background-image: url('assets/background2.png');
  
 }
+.back-side {
+  margin: 0 auto;
+}
 }
 
 
@@ -38,7 +41,7 @@ position: relative;
 margin-top: 210px;
 margin-left: 60%;
 overflow: hidden;
-/* box-shadow: 2px 5px 15px 0px #17161694; */
+box-shadow: 2px 5px 15px 0px #17161694;
 background-image: url('assets/final-backcard.png');
 background-size: contain;
 border-radius: 10px;
