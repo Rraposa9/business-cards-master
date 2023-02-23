@@ -10,7 +10,7 @@
 @media screen and (max-width: 1200px) {
 body{
  /* transform-origin: top; */
- transform: scale(1.0);
+ transform: scale(0.8);
  margin:0 auto;
  background-image: url('assets/background2.png');
  
@@ -39,7 +39,7 @@ position: relative;
 /* top: 155; */
 /* adjust this to space out the cards */
 margin-top: 210px;
-margin-left: 60%;
+margin-left: 57%;
 overflow: hidden;
 box-shadow: 2px 5px 15px 0px #17161694;
 background-image: url('assets/final-backcard.png');
